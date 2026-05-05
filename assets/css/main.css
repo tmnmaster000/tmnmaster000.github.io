@@ -3524,3 +3524,16 @@ input, select, textarea {
     max-width: 50%; 
     max-height: 50%;
 }
+/* Làm thẳng lại hình ảnh bên trong khung xoay */
+.major-icons .icon img {
+    transform: rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Hoặc 'cover' tùy bạn muốn lấy hết ảnh hay lấp đầy khung */
+    display: block;
+}
+
+/* Đảm bảo thẻ span không cắt mất góc ảnh khi xoay */
+.major-icons .icon {
+    overflow: visible; 
+}
