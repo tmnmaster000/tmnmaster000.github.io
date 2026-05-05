@@ -3510,3 +3510,17 @@ input, select, textarea {
 			}
 
 	}
+/* Căn giữa hình ảnh bên trong khung hình thoi */
+.icon.major {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.icon.major img {
+    display: block;
+    /* Điều chỉnh tỉ lệ ảnh tùy theo sở thích của bạn */
+    max-width: 50%; 
+    max-height: 50%;
+}
